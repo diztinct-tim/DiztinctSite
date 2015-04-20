@@ -4,17 +4,69 @@ Regular: 400
 Semibold: 600
 Bold: 700
 ExtraBold: 800*/
+html body{
+	font-family:"proxima-nova"
+}
+a{
+	text-decoration:none;
+	color:black;
+}
 
+/*BEGIN HEADER*/
 .header-container{
 	position:fixed;
 	left:0;
 	top:0;
 	height:100px;
 	width:100%;
+	box-shadow:0px 5px 8px lightgray;
 }
-
 .header-logo{
-	padding-top:40px;
+	padding-top:25px;
 	display:block;
 	margin:0 auto;
 }
+.help{
+	position:absolute;
+	top:40px;
+	left:40px;
+}
+.question-mark{
+	padding:4px 9px 4px 9px;
+	display:inline;
+	border:3px solid black;
+	border-radius:16px;
+	-webkit-border-radius: 16px; 
+	-moz-border-radius: 16px; 
+}
+.mark{
+	font-weight:700;
+}
+.help-text{
+	display:inline;
+	font-weight:700;
+}
+.menu-right{
+	font-size:30px;
+	position:absolute;
+	right:40px;
+	top:35px;
+}
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.3em 0 0 black,
+    0 0.6em 0 0 black;
+}
+
+/*END HEADER*/
