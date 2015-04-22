@@ -3,7 +3,7 @@
 Regular: 400
 Semibold: 600
 Bold: 700
-ExtraBold: 800*/
+ExtraBold: 800	*/
 html, body{ 
 	margin:0 !important;
 	padding:0 !important;
@@ -180,7 +180,7 @@ a{
 	color:black;
 	font-weight:800;
 	text-align: center;
-	font-size:3em;
+	font-size:3.3em;
 }
 .landing-bar{
 	margin-top:-25px;
@@ -210,6 +210,9 @@ a{
 	text-align:center;
 	letter-spacing:.05em;
 }
+.icon-container h4{
+	margin-top:7px;
+}
 .orange-dogear{
 	display:block;
 	margin-top: -3px !important;
@@ -233,6 +236,7 @@ a{
 	margin:0 auto;
 	background-color:white;
 }
+
 .our-promise-letter h1{
 	padding-top:8%;
 	font-weight:800;
@@ -257,19 +261,77 @@ a{
 }
 /*END OUR PROMISE AREA*/
 
-/*BEGIN PLATFORMS*/
 
+
+
+/*BEGIN PLATFORMS*/
 .platforms{
 	width:100%;
-	height:689px;
+	height:800px;
 	background-color:#e53935;
 	overflow:hidden;
 }
-.platforms-whitespace{
-	height:100px;
+.platforms h1{
+	padding-top:7%;
+	text-align:center;
+	color:white;
+	font-size:3.3em;
+}
+.platforms .landing-bar{
+	margin-top:-25px;
+	width:100px;
+	height:2px;
+	color:white;
+	background-color:white;
+	border-color:white;
+}
+.platforms h4{
+	text-align: center;
+	color:white;
+	margin:3% 20% 3% 20%;
+	font-weight:400;
+}
+.platforms-container{
+  width: 60%;
+  max-width: 800px;
+  min-height: 640px;
+  margin: 0 auto;
+}
+.platforms-container ul{
+	max-width:800px;
+	margin:0 0 20px -5%;
+}
+.platforms-container li{
+	list-style:none;
+	display:inline;
+	float:left;
+	width:23%;
+	height:23%;
+	padding:1%;
+}
+.platforms-container img{
 	width:100%;
+	height:100%;
+}
+
+.platforms-overview{
+	display:block;
+	margin-top:15px;
+	width:300px;
+	margin:0 auto;
+	height:55px;
+	background-color:#e53935;
+	border:solid 2px white;
+	border-radius:30px;
+}
+.platforms-overview a{
+	margin-top:20px;
+	color:white;
+	font-size:1.5em;
 }
 /*END PLATFORMS*/
+
+
 
 
 /*BEGIN FEATURED WORK*/
@@ -287,4 +349,4 @@ a{
 	height:100px;
 	width:100%;
 }
-/*END FEATURED WORK*/
+/*END FEATURED WORK
