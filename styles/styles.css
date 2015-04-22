@@ -131,6 +131,9 @@ a{
 /*END HEADER*/
 
 /*BEGIN LANDING AREA*/
+.landing{
+	height:786px;
+}
 .bg-image {
   background: url(../images/home_bg.png) no-repeat center top;
   -webkit-background-size: cover;
@@ -207,15 +210,6 @@ a{
 	text-align:center;
 	letter-spacing:.05em;
 }
-.icon-container li:first-child{
-	float:left;
-	display:inline-block;
-	/*padding:10px 0 0 0;*/
-}
-.icon-container li:last-child{
-	float:left;
-	display:inline-block;
-}
 .orange-dogear{
 	display:block;
 	margin-top: -3px !important;
@@ -225,27 +219,46 @@ a{
 
 
 /*BEGIN OUR PROMISE AREA*/
-.our-promise{
+.our-promise-container{
 	width:100%;
-	height:789px;
+	height:676px;
+	margin-top:50px;
 	background-color:#ff9f00;
-	/*overflow:hidden;*/
-	/*-ms-transform: rotate(2deg); /* IE 9 */*/
-/*    -webkit-transform: rotate(2deg); /* Safari */*/
- /*   transform: rotate(2deg);*/
+	padding-top:95px;
 }
-.ourpromise-whitespace{
-	height:100px;
-	width:100%;
+.our-promise-letter{
+	width:60%;
+	max-width:800px;
+	min-height:640px;
+	margin:0 auto;
+	background-color:white;
 }
-/*END OUR PROMISE AREA*/
+.our-promise-letter h1{
+	padding-top:8%;
+	font-weight:800;
+	font-size:3.3em;
+	text-align:center;
+}
 
-
-/*BEGIN PLATFORMS*/
+.our-promise-letter p{
+	line-height:180%;
+	font-size:1em;
+	padding:4% 8% 8% 8%;
+}
+.signature{
+  height: 23%;
+  width: 23%;
+  padding-top: 7px;
+}
 .red-dogear{
 	display:block;
 	margin:auto;
+	margin-top:-16px;
 }
+/*END OUR PROMISE AREA*/
+
+/*BEGIN PLATFORMS*/
+
 .platforms{
 	width:100%;
 	height:689px;
